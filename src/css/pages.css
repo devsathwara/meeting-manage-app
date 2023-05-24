@@ -1,0 +1,148 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@400;800&display=swap');
+.add-meeting{
+    margin: 60px auto;
+    width: 460px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+input{
+    width: 100%;
+    font-size: 26px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 34%;
+    margin-top: 2%;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgb(1 1 1) 0%, rgb(2 2 2) 100%);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    cursor: pointer;
+  }
+  
+h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+.d-none{
+    display: none;
+}
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    /* border-top: 8px solid #3498db; /* Blue */
+    /* border-radius: 50%; */
+    /* width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 60px auto; */
+    /* text-align: center; }
+    */
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@400;800&display=swap');
+
+    .add-meeting {
+      margin: 60px auto;
+      max-width: 460px;
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+    }
+    
+    input {
+      width: 100%;
+      font-size: 26px;
+      border: 1px solid lightgray;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 10px;
+      font-family: 'Dancing Script', cursive;
+    }
+    
+    .cssbuttons-io-button {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-family: inherit;
+      font-weight: 500;
+      font-size: 20px;
+      margin-left: 34%;
+      margin-top: 2%;
+      padding: 0.7em 1.4em 0.7em 1.1em;
+      color: white;
+      background: #ad5389;
+      background: linear-gradient(0deg, rgb(1 1 1) 0%, rgb(2 2 2) 100%);
+      border: none;
+      letter-spacing: 0.05em;
+      border-radius: 20em;
+      cursor: pointer;
+    }
+    
+    h1 {
+      font-weight: 600;
+      font-size: 60px;
+    }
+    
+    .d-none {
+      display: none;
+    }
+    
+    .loader {
+      border: 8px solid #f3f3f3; /* Light grey */
+      border-top: 8px solid #3498db; /* Blue */
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 60px auto;
+      text-align: center;
+    }
+    
+    /* Responsive Styles */
+    
+    @media only screen and (max-width: 600px) {
+      .add-meeting {
+        margin: 30px auto;
+        width: 90%;
+      }
+    
+      .cssbuttons-io-button {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+    
+      h1 {
+        font-size: 40px;
+      }
+    }
+    
+    @media only screen and (max-width: 400px) {
+      .cssbuttons-io-button {
+        width: 90%;
+      }
+    
+      h1 {
+        font-size: 32px;
+      }
+    }
+    .meeting-container{
+        display: flex;
+        align-items: center;
+       margin-left: 100px;
+        flex-direction: row;
+        gap: 25px;
+    }
+  

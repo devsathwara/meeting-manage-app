@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@400;800&display=swap');
+.App{
+    font-family: 'Poppins';
+}
+.gradient-text {
+    /* background: -webkit-linear-gradient(#ee7752, #e73c7e, #23a6d5, #23d5ab);
+   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    text-align: center;  
+    font-size: 60px;
+    background: #1626FF;
+    background: linear-gradient(to left, #1626FF 0%, #05C1FF 50%, #0D35FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+.meetingImg{
+    width: 40%;
+    height: auto;
+}  
+.head{
+    display: flex;
+    /* gap: 5px; */
+    align-items: center;
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+.today{
+    font-size: 50px;
+    font-family: 'Poppins';
+    text-align: center;
+    background: #1626FF;
+    background: linear-gradient(to left, #1626FF 0%, #05C1FF 50%, #0D35FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

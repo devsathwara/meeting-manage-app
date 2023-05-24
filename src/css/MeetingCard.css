@@ -1,0 +1,12 @@
+.card{
+    width: 280px;
+    border-radius: 14px;
+    box-shadow: -11px 10px 12px 0px #CDC9C9;
+}
+.card-img img{
+    border-radius: 14px 14px 0 0;
+    width: 100%;
+}
+.content{
+    margin-left: 10px;
+}

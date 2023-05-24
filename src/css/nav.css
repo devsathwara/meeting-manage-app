@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@400;800&display=swap');
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Dancing Script', cursive;
+
+    
+}
+.links{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 22px;
+    color: black;
+}
+.nav-links{
+    margin-right:10%;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.nav-logo{
+    font-weight:bolder;
+    margin-left: 10%;
+    font-size: 15px;
+}
+.text-decoration{
+    text-decoration: none;
+    color: black;
+}
